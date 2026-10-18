@@ -1,0 +1,84 @@
+[
+    {
+        "question": "What is 5 + 3?",
+        "choices":{
+            "A": "6",
+            "B": "8",
+            "C": "100000",
+            "D": "67"
+        }, 
+        "answer": "B"
+    },
+     {
+        "question": "What is the capital of Kenya ?",
+        "choices":{
+            "A": "Mombasa ",
+            "B": "Kisumu",
+            "C": "Nairobi",
+            "D": "Nakuru"
+        }, 
+        "answer": "C"
+    },
+     {
+        "question": "Which keyword defines a function in Python?",
+        "choices": {
+            "A": "function",
+            "B": "def",
+            "C": "fun",
+            "D": "define"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "choices": {
+            "A": "Venus",
+            "B": "Mars",
+            "C": "Jupiter",
+            "D": "Saturn"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which data type stores True or False?",
+        "choices": {
+            "A": "String",
+            "B": "Integer",
+            "C": "Boolean",
+            "D": "List"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which ancient civilisation built the pyramids at Giza?",
+        "choices": {
+            "A": "Roman",
+            "B": "Greek",
+            "C": "Egyptian",
+            "D": "Persian"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the result of 10 // 3 in Python?",
+        "choices": {
+            "A": "3",
+            "B": "3.33",
+            "C": "1",
+            "D": "0"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which language is commonly used to add interactivity to websites?",
+        "choices": {
+            "A": "JavaScript",
+            "B": "HTML",
+            "C": "CSS",
+            "D": "SQL"
+        },
+        "answer": "A"
+    }
+
+     
+]
