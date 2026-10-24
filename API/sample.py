@@ -7,6 +7,6 @@ response = requests.get(url)
 print (response.status_code)
 
 if response.status_code == 200:
-    data = response.json()
+    data = response.json() 
 
-    print(f"ln {location} the temperature is {data["current"]["temp_c"]}, and the weather  is {data["current"]["condition"]["text"]}"  )
+    print(f"ln {location} the temperature is {data["current"]["temp_c"]}, and the weather  is  {data["current"]["condition"]["text"]}"  )
