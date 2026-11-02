@@ -28,8 +28,6 @@ try:
             "price_gbp": clean_price
     })
 
-    print(products)
-
     print("Status code:", response.status_code)
     print("Website response:",response.reason)
 
@@ -56,8 +54,7 @@ try:
     exchange_rate = exchange_data["rates"]["KES"]
     
     print("GBP to KES exchange rate:", exchange_rate)
-    
-    print (type(products[0]["price_gbp"]))
+
 
 except (ValueError, KeyError) as e:
     print("Currency API returned unexpected data:", e)
