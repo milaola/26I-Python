@@ -47,6 +47,17 @@ print("GBP to KES exchange rate:", exchange_rate)
 print (type(products[0]["price_gbp"]))
 
 
+for product in products:
+    product["price_kes"] = round (
+        product["price_gbp"] * exchange_rate, 2
+    )
+
+
+df = pd.DataFrame(products)
+
+print("\nBook price")
+print(df.to_string(index=False))
+
 
 
                      
