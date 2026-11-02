@@ -55,6 +55,10 @@ for product in products:
 
 df = pd.DataFrame(products)
 
+df.to_csv("book_prices_kes.csv", index=False)
+
+print("Data successfully saved to CSV!")
+
 print("\nBook price")
 print(df.to_string(index=False))
 
