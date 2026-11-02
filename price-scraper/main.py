@@ -18,12 +18,20 @@ products = []
 
 for book in books:
     title = book.h3.a["title"]
-    price = book.find("p", class_="price_color").text
+    price = book.find("p", class_="price_color").get_text(strip=True)
 
-    print(title, price)
+    clean_price = float(price.replace("£", "") .replace("Â", ""))
+
+    products.append({
+        "title":title,
+        "price_gbp": clean_price
+    })
+
+print(products)
 
 print("Status code:", response.status_code)
 print("Website response:",response.reason)
+print (type(products[0]["price_gbp"]))
 
 
 
